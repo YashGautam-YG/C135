@@ -1,0 +1,33 @@
+body{
+    background:"background.jpg";
+    background-size: cover;
+}
+.heading{
+    width:100%;
+    font-size: 23px;
+    border:2px solid violet;
+
+}
+#status, #number_of_objects, #start{
+   font-size: 18px;
+}
+.copy_right_footer{
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    color: aliceblue;
+}
+.object_name{
+   color: aliceblue;
+}
+canvas{
+    border: 2px dotted white;
+    border-radius: 2px;
+    margin-top:120px;
+    margin-bottom: 400px;
+    box-shadow: 5px 5px 5px grey;
+    position: center;
+}
